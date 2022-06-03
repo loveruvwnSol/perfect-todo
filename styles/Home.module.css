@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: left;
+}
+
+.textBox {
+  padding: 10px 30px;
+  margin-right: 5px;
+}
+
+.addButton {
+  padding: 12px;
+  background: #8e49e8;
+  box-shadow: none;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+}
+
+.todoList {
+  padding: 10px 85px;
+  margin-top: 5px;
+  background: #f2f2f2;
+}
+
+.trashBox {
+  margin-top: 5px;
+  font-size: 40px;
+  fill: white;
+  background: red;
+}
+
+.deleteButton {
+  padding: 12px;
+  margin-top: 5px;
+  background: red;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+}
